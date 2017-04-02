@@ -1,5 +1,4 @@
-const RubricLib = require('rubricjs');
-const {EntityManager, EntityFactory, SystemManager} = RubricLib;
+const {EntityManager, EntityFactory, SystemManager} = require('rubricjs');
 
 module.exports = {
     entityManager: new EntityManager(),
